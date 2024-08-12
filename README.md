@@ -1,2 +1,2 @@
-# TallerIngSoftware1-UCSC
-This repository (in spanish language) contains study material, codes, and exercises solved by me in the Software Engineering Project I course taught at UCSC in the 2023-2 semester.
+# Taller de Ingeniería de Software I
+Este repositorio contiene material de estudio, códigos y ejercicios resueltos por mí en el curso de Taller de Ingeniería de Software I (IN1080C) impartido en la UCSC (específicamente en el semestre 2024-1).
