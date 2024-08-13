@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+}
+
+#arriba {
+    margin-top: 20px;
+}
+
+h6 {
+    color: red;
+}
+
+.titulo {
+    color: green;
+}
+
+#especial {
+    color: blue;
+}

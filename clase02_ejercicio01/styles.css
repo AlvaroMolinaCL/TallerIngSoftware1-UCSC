@@ -1,0 +1,60 @@
+.contenedor-notif {
+  padding: 18px;
+  border-style: solid;
+  border-width: 2px;
+  margin-right: 1075px;
+  background-color: #fafafa;
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  float: left;
+}
+
+.foto {
+  width: 60px;
+  height: 60px;
+}
+
+.contenedor-nombre {
+  position: absolute;
+  top: 22px;
+  left: 80px;
+}
+
+.contenedor-mensaje {
+  position: absolute;
+  top: 63px;
+  left: 80px;
+}
+
+.fecha-opc {
+  position: absolute;
+  top: 22px;
+  left: 365px;
+}
+
+.nombre {
+  margin-left: 25px;
+  font-family: roboto;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.mensaje {
+  margin-left: 25px;
+  font-family: roboto;
+  display: inline;
+}
+
+.fecha {
+  font-family: roboto;
+  color: rgb(182, 180, 180);
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  top: 14px;
+  left: 50px;
+  color: rgb(182, 180, 180);
+}

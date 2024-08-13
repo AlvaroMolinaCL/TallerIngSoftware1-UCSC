@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.contenedor-texto {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+#verde {
+    background-color: green;
+    /* margin-right: 20px; */
+    opacity: 0.5;
+}
+
+#rojo {
+    background-color: red;
+    /* display: none; */
+}
+
+#azul {
+    background-color: blue;
+    /* visibility: hidden; */
+
+}
+
+#amarillo {
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#texto {
+    letter-spacing: 10px;
+}
+
+p {
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+img {
+    border-radius: 50%;
+}
