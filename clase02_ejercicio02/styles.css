@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.container {
+    position: absolute;
+    width: 360px;
+    height: 480px;
+    background-image: url('https://www.musicroom.com/product/image/medium/dam382506_0.jpg');
+    background-size: 100%;
+    color: white;
+}
+
+.status-bar {
+    display: flex;
+    padding: 5px 15px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.title {
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 2px;
+}
+
+.content {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(48, 51, 61);
+    padding: 27px;
+    box-sizing: border-box;
+}
+
+.song-title {
+    font-size: 24px;
+    margin: 0px 0px 0px;
+}
+
+.artist {
+    font-size: 16px;
+    margin: 5px 0px 0px;
+}
+
+.shuffle-icon {
+    position: absolute;
+    right: 20px;
+    bottom: 80px;
+    background-color: #ff4081;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
