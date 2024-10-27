@@ -2,20 +2,20 @@
     require('conexion.php');
 
     // Verificar si los campos fueron enviados por el formulario
-    if (isset($_POST['name']) && isset($_POST['last_name']))
+    if (isset($_POST['id']) && isset($_POST['name']) && isset($_POST['last_name']))
     {
+        $id = $_POST['id'];
         $nombre_recibido = $_POST['name'];
         $apellido_recibido = $_POST['last_name'];
-    
+
         // Usar comillas para los valores de las cadenas en la consulta SQL 
-        $sql = "INSERT INTO alumnos (nombre, apellido) VALUES ('$nombre_recibido', '$apellido_recibido')";
-        
+        $sql = "UPDATE alumnos SET nombre = '$nombre_recibido', apellido = '$apellido_recibido' WHERE id = $id";
+
         // Ejecutar la consulta y verificar si fue exitosa
         if (mysqli_query($conexion, $sql))
         {
-            echo "Registro insertado exitosamente.";
-        }
-        else
+            echo "Registro actualizado exitosamente.";
+        } else
         {
             echo "Error: " . mysqli_error($conexion);
         }
